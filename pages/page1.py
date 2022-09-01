@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from io import StringIO
 
 
 my_image = st.file_uploader("Upload image", type="jpg")
